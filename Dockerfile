@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM public.ecr.aws/ubuntu/ubuntu:latest
 
 # Update and install required packages in one RUN command to reduce the number of layers
 RUN apt-get update && \
